@@ -4,19 +4,21 @@ import java.io.Serializable;
 import java.util.Collection;
 import java.util.List;
 
+import org.apache.ibatis.annotations.Param;
+
 import cn.huwhy.interfaces.Term;
 
 public interface BaseDao<T, PK extends Serializable> {
 
     Long nextId();
 
-    void saves(Collection<T> pos);
+    void saves(@Param("list") Collection<T> list);
 
     void update(T po);
 
     void save(T po);
 
-    void updates(Collection<T> pos);
+    void updates(@Param("list") Collection<T> pos);
 
     T get(PK id);
 
