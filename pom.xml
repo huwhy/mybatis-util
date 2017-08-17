@@ -66,7 +66,7 @@
       <repositories>
         <repository>
           <id>nexus</id>
-          <url>http://121.41.85.6:8081/nexus/content/groups/public/</url>
+          <url>http://116.62.65.3:8081/nexus/content/groups/public/</url>
           <releases>
             <enabled>true</enabled>
           </releases>
@@ -78,7 +78,7 @@
       <pluginRepositories>
         <pluginRepository>
           <id>nexus</id>
-          <url>http://121.41.85.6:8081/nexus/content/groups/public/</url>
+          <url>http://116.62.65.3:8081/nexus/content/groups/public/</url>
           <releases>
             <enabled>true</enabled>
           </releases>
