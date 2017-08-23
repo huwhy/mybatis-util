@@ -22,7 +22,7 @@ import org.apache.ibatis.scripting.defaults.DefaultParameterHandler;
 
 import cn.huwhy.interfaces.Term;
 
-@Intercepts({@Signature(type = StatementHandler.class, method = "prepare", args = {Connection.class})})
+@Intercepts({@Signature(type = StatementHandler.class, method = "prepare", args = {Connection.class, Integer.class})})
 public class PagingInterceptor implements Interceptor {
     @Override
     public Object intercept(Invocation invocation) throws Throwable {

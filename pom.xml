@@ -4,7 +4,7 @@
 
   <groupId>cn.huwhy</groupId>
   <artifactId>mybatis-util</artifactId>
-  <version>1.1</version>
+  <version>1.2</version>
   <packaging>jar</packaging>
 
   <name>mybatis-util</name>
@@ -100,7 +100,7 @@
     <dependency>
       <groupId>org.mybatis</groupId>
       <artifactId>mybatis</artifactId>
-      <version>3.3.0</version>
+      <version>3.4.5</version>
     </dependency>
     <dependency>
       <groupId>cn.huwhy</groupId>
