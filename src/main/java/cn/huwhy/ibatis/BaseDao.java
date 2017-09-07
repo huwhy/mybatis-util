@@ -12,13 +12,13 @@ public interface BaseDao<T, PK extends Serializable> {
 
     Long nextId();
 
-    void saves(@Param("list") Collection<T> list);
+    int saves(@Param("list") Collection<T> list);
 
-    void update(T po);
+    int update(T po);
 
-    void save(T po);
+    int save(T po);
 
-    void updates(@Param("list") Collection<T> pos);
+    int updates(@Param("list") Collection<T> pos);
 
     T get(PK id);
 
